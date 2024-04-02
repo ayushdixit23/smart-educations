@@ -21,6 +21,9 @@ const config = {
       xl: "1536px",
     },
     extend: {
+      spacing: {
+        "128": "45rem",
+      },
       colors: {
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
@@ -51,6 +54,7 @@ const config = {
           DEFAULT: "hsl(var(--popover))",
           foreground: "hsl(var(--popover-foreground))",
         },
+
         card: {
           DEFAULT: "hsl(var(--card))",
           foreground: "hsl(var(--card-foreground))",
@@ -75,6 +79,9 @@ const config = {
         "accordion-down": "accordion-down 0.2s ease-out",
         "accordion-up": "accordion-up 0.2s ease-out",
       },
+    },
+    height: {
+      "90": "40.5rem",
     },
   },
   plugins: [require("tailwindcss-animate")],
